@@ -1,17 +1,17 @@
 node{
     stage('Clone') {
-        git url: 'https://github.com/abdousmi/jenkins-helloworld.git'
+        git url: 'https://github.com/abdousmi/JenkinsFileAbd.git'
     }
-    stage('Build image') {
+    stage('Buildimage') {
 		echo 'Build image';
     }
-    stage('Test image') {
+    stage('Testimage') {
 		echo 'Test image';
     }
-    stage('Push image') {
+    stage('Pushimage') {
 		echo 'Push image';
     }
-    stage('Pull image') {
+    stage('Pullimage') {
 		echo 'Pull image';
     }
 }
